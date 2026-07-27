@@ -15,12 +15,12 @@ const en: Dictionary = {
   },
   hero: {
     badge: "It's the perfect time to take your business digital",
-    headline1: "Focus on What You Do Best,",
-    headline2: "Leave the Rest to Us.",
+    headline1: "We Code. We Simplify.",
+    headline2: "WE GROW.",
     description:
-      "Tired of Excel files, manual work that exhausts your team, and disconnected systems?",
-    descriptionHighlight: "We solve every problem that involves code",
-    descriptionEnd: ", removing the friction from your business.",
+      "Change Your Processes, Not Your Business.",
+    descriptionHighlight: " With Custom Software, ",
+    descriptionEnd: "We Make Your Business Faster, Smarter, and More Efficient.",
     cta1: "Schedule a Discovery Call",
     cta2: "Get Free Consulting",
     badge1: "Fast Delivery",
@@ -50,6 +50,15 @@ const en: Dictionary = {
       feature2: "Routine Task Automation (Cut your workload by 70%)",
       feature3: "System Integrations (Accounting, E-commerce, etc.)",
       cta: "Discuss the Project",
+    },
+    ai: {
+      title: "AI-Powered Solutions",
+      description:
+        "We process your business data with smart systems and accelerate your decision-making. We train custom AI assistants for your routine operations.",
+      feature1: "Custom AI Assistants & Chatbots",
+      feature2: "Big Data Analysis & Predictive Models",
+      feature3: "Process Automation (LLM Integrations)",
+      cta: "Explore AI Opportunities",
     },
   },
   features: {
@@ -207,6 +216,7 @@ const en: Dictionary = {
     b2bPortal: "B2B Order Portal",
     eTicaret: "E-Commerce",
     mobilUygulama: "Mobile Application",
+    yapayZeka: "AI Solutions",
   },
   legal: {
     privacyTitle: "Privacy Policy",

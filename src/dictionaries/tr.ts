@@ -13,12 +13,12 @@ const tr = {
   },
   hero: {
     badge: "İşinizi dijitale taşımanın tam zamanı",
-    headline1: "Siz Sadece İşinize Odaklanın,",
-    headline2: "Geri Kalanı Bize Bırakın.",
+    headline1: "Kodluyoruz. Kolaylaştırıyoruz.",
+    headline2: "BÜYÜTÜYORUZ.",
     description:
-      "Excel dosyalarından, personeli yoran manuel işlerden ve birbirinden kopuk çalışan sistemlerden sıkıldınız mı?",
-    descriptionHighlight: "İçinde kod olan her problemi çözüyor",
-    descriptionEnd: ", işletmenizin üzerindeki hantallığı alıyoruz.",
+      "İşinizi Değil, Süreçlerinizi Değiştirin.",
+    descriptionHighlight: " Size Özel Yazılımlarla ",
+    descriptionEnd: "İşletmenizi Daha Hızlı, Daha Akıllı ve Daha Verimli Hale Getiriyoruz.",
     cta1: "Keşif Görüşmesi Ayarla",
     cta2: "Ücretsiz Danışmanlık Alın",
     badge1: "Hızlı Teslimat",
@@ -48,6 +48,15 @@ const tr = {
       feature2: "Rutin İşlerin Otomasyonu (İş yükünüzü %70 hafifletin)",
       feature3: "Sistem Entegrasyonları (Muhasebe, E-ticaret vb.)",
       cta: "Projeyi Görüşelim",
+    },
+    ai: {
+      title: "Yapay Zeka (AI) Çözümleri",
+      description:
+        "İşletmenizin verilerini akıllı sistemlerle işliyor, karar süreçlerinizi hızlandırıyoruz. Rutin işlemleriniz için size özel yapay zeka asistanları tasarlıyoruz.",
+      feature1: "Özel AI Asistanlar ve Chatbotlar",
+      feature2: "Veri Analizi ve Öngörücü Modeller",
+      feature3: "Süreç Otomasyonu (LLM Entegrasyonları)",
+      cta: "Yapay Zekayı Keşfet",
     },
   },
   features: {
@@ -205,6 +214,7 @@ const tr = {
     b2bPortal: "B2B Sipariş Portalı",
     eTicaret: "E-Ticaret",
     mobilUygulama: "Mobil Uygulama",
+    yapayZeka: "Yapay Zeka Çözümleri",
   },
   legal: {
     privacyTitle: "Gizlilik Politikası",

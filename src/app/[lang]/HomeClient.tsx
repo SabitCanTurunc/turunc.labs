@@ -543,7 +543,7 @@ export default function HomeClient({ dict, lang }: HomeClientProps) {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Esnaf Card */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -619,6 +619,45 @@ export default function HomeClient({ dict, lang }: HomeClientProps) {
                 className="text-[#ff5625] font-bold flex items-center gap-2 group-hover:gap-4 transition-all uppercase tracking-wider text-label-sm w-fit"
               >
                 {dict.solutions.corporate.cta} <ArrowRight className="w-4 h-4" />
+              </button>
+            </motion.div>
+
+            {/* AI Card */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              whileHover={{ y: -5 }}
+              className="glass-card p-6 md:p-10 rounded-2xl group flex flex-col justify-between h-full hover:border-[#2592ff] transition-all duration-300 md:col-span-2 lg:col-span-1"
+            >
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-[#2592ff]/10 flex items-center justify-center mb-8 border border-[#2592ff]/20 group-hover:scale-110 transition-transform">
+                  <Sparkles className="w-6 h-6 text-[#2592ff]" />
+                </div>
+                <h3 className="font-headline-md text-headline-md text-white mb-4">{dict.solutions.ai.title}</h3>
+                <p className="text-[#e7bdb2] mb-8 font-body-md text-body-md">
+                  {dict.solutions.ai.description}
+                </p>
+                <ul className="space-y-4 mb-12">
+                  <li className="flex items-center gap-3">
+                    <Check className="w-5 h-5 text-[#2592ff] flex-shrink-0" />
+                    <span className="text-[#e7bdb2] font-body-md">{dict.solutions.ai.feature1}</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <Check className="w-5 h-5 text-[#2592ff] flex-shrink-0" />
+                    <span className="text-[#e7bdb2] font-body-md">{dict.solutions.ai.feature2}</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <Check className="w-5 h-5 text-[#2592ff] flex-shrink-0" />
+                    <span className="text-[#e7bdb2] font-body-md">{dict.solutions.ai.feature3}</span>
+                  </li>
+                </ul>
+              </div>
+              <button
+                onClick={() => openModal(dict.modalSubjects.yapayZeka)}
+                className="text-[#2592ff] font-bold flex items-center gap-2 group-hover:gap-4 transition-all uppercase tracking-wider text-label-sm w-fit"
+              >
+                {dict.solutions.ai.cta} <ArrowRight className="w-4 h-4" />
               </button>
             </motion.div>
           </div>
