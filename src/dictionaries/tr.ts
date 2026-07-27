@@ -142,6 +142,11 @@ const tr = {
         tag: "Kurumsal Web Sitesi & SEO",
         desc: "Hatay'ın öncü PVC pencere, çelik kapı ve cam balkon sistemleri firması için kurumsal web sitesi ve Google SEO optimizasyonu.",
       },
+      {
+        title: "Turunç Oto Tamir & Servis",
+        tag: "Kurumsal Web Sitesi & SEO",
+        desc: "Profesyonel oto tamir, bakım ve onarım hizmetleri sunan kurumsal web platformu.",
+      },
     ],
   },
   cta: {

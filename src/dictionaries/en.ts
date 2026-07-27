@@ -144,6 +144,11 @@ const en: Dictionary = {
         tag: "Corporate Website & SEO",
         desc: "Corporate website and Google SEO optimization for Hatay's leading PVC window, steel door, and glass balcony systems company.",
       },
+      {
+        title: "Turunç Auto Repair & Service",
+        tag: "Corporate Website & SEO",
+        desc: "A corporate web platform offering professional auto repair, maintenance, and service.",
+      },
     ],
   },
   cta: {

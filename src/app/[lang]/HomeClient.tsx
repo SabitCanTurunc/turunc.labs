@@ -236,6 +236,15 @@ export default function HomeClient({ dict, lang }: HomeClientProps) {
       modal: "Kardelen PVC",
       url: "https://kardelen-pvc.vercel.app/"
     },
+    {
+      title: dict.portfolio.items[3].title,
+      tag: dict.portfolio.items[3].tag,
+      desc: dict.portfolio.items[3].desc,
+      img: "/kardelen-pvc-preview.png",
+      badges: ["Next.js", "Corporate", "SEO"],
+      modal: "Turunç Oto",
+      url: "https://turuncototamir.com.tr/"
+    },
   ];
 
   return (
@@ -1014,7 +1023,7 @@ export default function HomeClient({ dict, lang }: HomeClientProps) {
           >
             <div className="relative z-10">
               <h2 className="font-headline-lg text-headline-lg text-white mb-6 md:mb-8">
-                {dict.cta.heading1} <br className="hidden md:block"/> <span className="gradient-text">{dict.cta.heading2}</span>{dict.cta.heading3}
+                {dict.cta.heading1} <br className="hidden md:block"/> <span className="gradient-text">{dict.cta.heading2}</span> {dict.cta.heading3}
               </h2>
               <p className="font-body-md text-body-md md:font-body-lg md:text-body-lg text-[#e7bdb2] max-w-2xl mx-auto mb-8 md:mb-12">
                 {dict.cta.description}
