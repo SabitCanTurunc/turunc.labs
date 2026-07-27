@@ -165,6 +165,7 @@ const ar: Dictionary = {
       corporate: "برمجيات الشركات",
       ecommerce: "أنظمة التجارة الإلكترونية",
       mobile: "تطبيقات الجوال",
+      ai: "حلول الذكاء الاصطناعي",
     },
     copyright: "© 2026 turunc.labs. جميع الحقوق محفوظة.",
     privacy: "سياسة الخصوصية",

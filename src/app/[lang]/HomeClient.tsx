@@ -1073,6 +1073,7 @@ export default function HomeClient({ dict, lang }: HomeClientProps) {
                   <li><a className="text-[#e7bdb2] hover:text-[#ffb5a0] transition-colors text-sm" href="#" onClick={(e) => { e.preventDefault(); openModal(dict.modalSubjects.kurumsalYazilim); }}>{dict.footer.links.corporate}</a></li>
                   <li><a className="text-[#e7bdb2] hover:text-[#ffb5a0] transition-colors text-sm" href="#" onClick={(e) => { e.preventDefault(); openModal(dict.modalSubjects.eTicaret); }}>{dict.footer.links.ecommerce}</a></li>
                   <li><a className="text-[#e7bdb2] hover:text-[#ffb5a0] transition-colors text-sm" href="#" onClick={(e) => { e.preventDefault(); openModal(dict.modalSubjects.mobilUygulama); }}>{dict.footer.links.mobile}</a></li>
+                  <li><a className="text-[#e7bdb2] hover:text-[#ffb5a0] transition-colors text-sm" href="#" onClick={(e) => { e.preventDefault(); openModal(dict.modalSubjects.yapayZeka); }}>{dict.footer.links.ai}</a></li>
                 </ul>
               </div>
               <div>

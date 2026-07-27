@@ -165,6 +165,7 @@ const en: Dictionary = {
       corporate: "Enterprise Software",
       ecommerce: "E-Commerce Systems",
       mobile: "Mobile Applications",
+      ai: "AI Solutions",
     },
     copyright: "© 2026 turunc.labs. All rights reserved.",
     privacy: "Privacy Policy",

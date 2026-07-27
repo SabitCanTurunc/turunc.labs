@@ -163,6 +163,7 @@ const tr = {
       corporate: "Kurumsal Yazılım",
       ecommerce: "E-Ticaret Sistemleri",
       mobile: "Mobil Uygulamalar",
+      ai: "Yapay Zeka Çözümleri",
     },
     copyright: "© 2026 turunc.labs. Tüm hakları saklıdır.",
     privacy: "Gizlilik Politikası",
