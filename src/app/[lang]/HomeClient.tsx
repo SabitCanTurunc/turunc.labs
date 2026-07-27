@@ -240,7 +240,7 @@ export default function HomeClient({ dict, lang }: HomeClientProps) {
       title: dict.portfolio.items[3].title,
       tag: dict.portfolio.items[3].tag,
       desc: dict.portfolio.items[3].desc,
-      img: "/kardelen-pvc-preview.png",
+      img: "/turunc-oto-preview.png",
       badges: ["Next.js", "Corporate", "SEO"],
       modal: "Turunç Oto",
       url: "https://turuncototamir.com.tr/"
