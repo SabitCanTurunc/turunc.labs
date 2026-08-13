@@ -138,7 +138,7 @@ const tr = {
         desc: "Hatay'dan dünyaya açılan lüks mobilya, özel tasarım mutfak ve banyo koleksiyonları platformu.",
       },
       {
-        title: "Kardelen Pen — Turunçlar Plastik",
+        title: "Kardelen Pen & Çelik Kapı",
         tag: "Kurumsal Web Sitesi & SEO",
         desc: "Hatay'ın öncü PVC pencere, çelik kapı ve cam balkon sistemleri firması için kurumsal web sitesi ve Google SEO optimizasyonu.",
       },

@@ -140,7 +140,7 @@ const en: Dictionary = {
         desc: "A luxury furniture, custom kitchen and bathroom collections platform expanding from Hatay to the world.",
       },
       {
-        title: "Kardelen Pen — Turunçlar Plastik",
+        title: "Kardelen Pen & Çelik Kapı",
         tag: "Corporate Website & SEO",
         desc: "Corporate website and Google SEO optimization for Hatay's leading PVC window, steel door, and glass balcony systems company.",
       },

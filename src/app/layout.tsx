@@ -26,6 +26,7 @@ export default function RootLayout({
   return (
     <html
       lang="tr"
+      suppressHydrationWarning
       className={`dark scroll-smooth ${geistSans.variable} ${geistMono.variable} ${cairo.variable} antialiased h-full overflow-x-hidden max-w-full`}
     >
       <body className="bg-[#05080F] text-[#dbe2fd] overflow-x-hidden w-full max-w-full font-sans min-h-screen flex flex-col selection:bg-[#ff5625] selection:text-white">
